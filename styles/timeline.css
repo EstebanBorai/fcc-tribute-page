@@ -1,0 +1,70 @@
+#timeline {
+  position: relative;
+  background: var(--middle);
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#timeline-content-wrapper {
+  background: rgba(25, 25, 25, 0.8);
+  color: #ffffff !important;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#timeline-image-wrapper {
+  height: 370px;
+}
+
+#timeline-image {
+  margin: auto;
+  display: inline-block;
+  max-height: 100%;
+}
+
+#timeline-title {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+#timeline-resume {
+  font-family: 'Roboto Slab', serif;
+  width: 80%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#timeline-years {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  list-style-type: none;
+  width: 50%;
+  padding: 0;
+}
+
+.timeline-year {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.timeline-year:hover {
+  background: var(--complementary);
+  transition: 0.5s;
+}
+
+.current {
+  background: var(--complementary-two) !important;
+}

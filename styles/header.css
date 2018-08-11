@@ -1,0 +1,44 @@
+header {
+  background: var(--base-one);
+}
+
+#title {
+  margin: 0;
+  color: #eeeeee;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sub-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: -1rem;
+}
+
+nav {
+  background: var(--base-two);
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav li a {
+  padding: 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #eeeeee;
+  display: inline-block;
+}
+
+nav li a:hover {
+  transition: 0.5s;
+  color: #222222 !important;
+  background: hsl(0, 29%, 90%);
+}
+
