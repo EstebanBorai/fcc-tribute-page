@@ -33,7 +33,6 @@
 
 #years-list {
   width: 90%;
-  margin: 0.5rem 5%;
   font-size: 1.3rem;
   font-family: 'Roboto Slab', serif;
   display: inline-block;
@@ -45,15 +44,16 @@
   margin: 0;
   margin-top: 5%;
   position: relative;
-  right: -25%;
+  right: -5%;
   padding: 1rem;
   padding-bottom: 0;
   box-sizing: border-box;
+  width: 90%;
 }
 
 #timeline-resume {
   position: relative;
-  right: -25%;
+  right: -5%;
   font-family: 'Roboto Slab', serif;
   width: 90%;
   padding: 1rem;
@@ -79,6 +79,13 @@
   margin: 0;
   margin-right: 1rem;
   border-bottom: 1px solid transparent;
+}
+
+.timeline-sub-year {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 0.5rem;
+  cursor: pointer;
 }
 
 .timeline-year:hover {

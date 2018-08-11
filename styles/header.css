@@ -4,6 +4,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 55px;
 }
 
 #title {
@@ -47,8 +48,30 @@ nav a:hover {
   transition: 0.5s;
 }
 
+#menu-hamb {
+  display: none;
+}
+
+.hide {
+  display: none !important;
+}
+
 @media (max-width: 700px) {
   #sub-title {
     display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #menu-hamb {
+    border: none;
+    margin-right: 1rem;
+    display: inline-block;
+    background: transparent;
+    height: 24px;
+    width: 24px;
+    background-image: url('https://raw.githubusercontent.com/estebanborai/fcc-tribute-page/master/assets/img/menu.png');
   }
 }

@@ -25,13 +25,10 @@
   box-sizing: border-box;
 }
 
-#bibliography h3 {
-  grid-column: 2 / 2;
-  background: var(--text);
-  color: var(--background);
-  font-family: 'Roboto Slab', serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 300;
+@media (max-width: 700px) {
+  #bibliography {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
