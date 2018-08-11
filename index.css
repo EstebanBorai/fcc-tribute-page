@@ -3,8 +3,11 @@
 @import url('./styles/header.css');
 @import url('./styles/timeline.css');
 @import url('./styles/about.css');
+@import url('./styles/bibliography.css');
 
 :root {
+  --text: #111111;
+  --background: #FFFFFF;
   --base-one: #FFA7A7;
   --base-two: #CFA7A7;
   --middle: #9FA7A7;
@@ -22,12 +25,15 @@ body {
   padding: 0;
 }
 
+h2 {
+  margin-left: 2%;
+}
+
 footer {
-  background: var(--complementary-two);
   padding: 0.2rem 1rem;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
   box-sizing: border-box;
-  color: #EEEEEE;
+  color: var(--title);
 }

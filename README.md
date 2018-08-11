@@ -22,3 +22,5 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 Once you're done, submit the URL to your working project with all its tests passing.
 
 Remember to use the Read-Search-Ask method if you get stuck.
+
+** NOTE: As a self objective I'm using Vanilla JavaScript to accomplish this challenge. No frameworks.**

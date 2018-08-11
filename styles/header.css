@@ -1,10 +1,14 @@
 header {
-  background: var(--base-one);
+  background: #FFFFFF;
+  color: #111111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #title {
   margin: 0;
-  color: #eeeeee;
+  color: #111111;
   padding: 0.5rem 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -16,11 +20,13 @@ header {
   font-style: italic;
   font-size: 1.5rem;
   position: relative;
-  bottom: -1rem;
+  bottom: -0.5rem;
+  margin-right: 1rem;
 }
 
 nav {
-  background: var(--base-two);
+  color: var(--text);
+  margin-right: 2rem;
 }
 
 nav li {
@@ -29,16 +35,20 @@ nav li {
 }
 
 nav li a {
-  padding: 0.5rem;
+  padding: 0.3rem 0.5rem;
   text-decoration: none;
-  text-transform: uppercase;
-  color: #eeeeee;
+  color: var(--text);
   display: inline-block;
+  border-bottom: 1px solid transparent;
 }
 
-nav li a:hover {
+nav a:hover {
+  border-bottom: 1px solid black;
   transition: 0.5s;
-  color: #222222 !important;
-  background: hsl(0, 29%, 90%);
 }
 
+@media (max-width: 700px) {
+  #sub-title {
+    display: none;
+  }
+}
