@@ -2,7 +2,7 @@ var timelineHistory = {
   y1815: {
     a1815: {
       title: 'Augusta Ada King-Noel, Countess of Lovelace',
-      resume: '10 December 1815 - London, England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 - 27 November 1852 Marylebone (aged 36), London, England 🏴',
+      resume: '10 December 1815 - London, England 🇬🇧󠁧󠁢󠁥󠁮󠁧󠁿 - 27 November 1852 Marylebone (aged 36), London, England 🇬🇧',
       img: 'https://raw.githubusercontent.com/estebanborai/fcc-tribute-page/master/assets/img/800px-Ada_Lovelace_portrait.jpg'
     },
     b1816: {

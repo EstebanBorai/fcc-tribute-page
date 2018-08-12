@@ -23,4 +23,7 @@ Once you're done, submit the URL to your working project with all its tests pass
 
 Remember to use the Read-Search-Ask method if you get stuck.
 
-** NOTE: As a self objective I'm using Vanilla JavaScript to accomplish this challenge. No frameworks.**
+### The CodePen Project
+[Visit the CodePen Project!](https://codepen.io/eborai/pen/oMmaPM)
+
+**NOTE: As a self objective I'm using Vanilla JavaScript to accomplish this challenge. No frameworks.**

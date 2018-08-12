@@ -34,7 +34,7 @@ function updateTimeline() {
   const elResume = document.getElementById('timeline-resume');
   elResume.innerText = current.resume;
 
-  const elImage = document.getElementById('timeline-image');
+  const elImage = document.getElementById('image');
   elImage.setAttribute('src', current.img);
 
   const elTimeline = document.getElementById('timeline');

@@ -28,16 +28,3 @@ body {
 h2 {
   margin-left: 2%;
 }
-
-footer {
-  padding: 0.2rem 1rem;
-  text-align: center;
-  font-weight: 600;
-  text-transform: uppercase;
-  box-sizing: border-box;
-  color: var(--background);
-  position: absolute;
-  bottom: 0;
-  background: var(--text);
-  width: 100%;
-}
