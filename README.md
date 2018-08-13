@@ -1,3 +1,7 @@
+<a href="https://www.freecodecamp.org/">
+  <img align="left" width="100" height="100" alt="freeCodeCamp Logo" src="https://raw.githubusercontent.com/estebanborai/fcc-tribute-page/master/assets/freecodecamp_logo.svg" />
+</a>
+
 # fcc-tribute-page
 🏕 freeCodeCamp's Tribute Page Project - Part of the "Responsive Web Design Certification"
 
