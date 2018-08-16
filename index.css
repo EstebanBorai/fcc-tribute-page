@@ -28,3 +28,16 @@ body {
 h2 {
   margin-left: 2%;
 }
+
+#img-div {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+#image {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
