@@ -5,6 +5,18 @@
 # fcc-tribute-page
 🏕 freeCodeCamp's Tribute Page Project - Part of the "Responsive Web Design Certification"
 
+### Development
+To run this project locally in your machine, you will need to run the following commands from your terminal/console application.
+```
+git clone https://github.com/estebanborai/fcc-tribute-page.git
+cd fcc-tribute-page
+npm i && npm start
+```
+
+### Technologies
+In order to follow the freeCodeCamp Curriculum I'm making use of the following set of technologies.
+<img height="90" alt="Tech Stack" src="https://raw.githubusercontent.com/estebanborai/fcc-tribute-page/master/assets/tech-stack.png" />
+
 ### Objective
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
