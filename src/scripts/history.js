@@ -57,6 +57,6 @@ const timelineHistory = [
     year: 1852,
     title: 'Final Years',
     resume: 'In 1852 at the age of 36, Ada Lovelance died of uterine cancer.',
-    img: 'https://raw.githubusercontent.com/estebanborai/fcc-tribute-page/master/assets/img/600px-AdaLovelaceplaque.jpg'
+    img: 'https://raw.githubusercontent.com/estebanborai/fcc-tribute-page/master/assets/img/600px-AdaLovelaceplaque.JPG'
   }
 ];
