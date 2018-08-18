@@ -2,6 +2,12 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
+  background: #222222;
+  color: #ffffff;
+}
+
+#title {
+  text-align: center;
 }
 
 h2 {
@@ -19,4 +25,14 @@ h2 {
   width: 100%;
   max-width: 100%;
   display: block;
+}
+
+#tribute-info {
+  width: 100%;
+  padding: 0 20%;
+  box-sizing: border-box;
+}
+
+#img-caption {
+ font-style: italic;
 }
