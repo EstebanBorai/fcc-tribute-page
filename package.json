@@ -1,0 +1,32 @@
+{
+  "name": "fcc-tribute-page",
+  "version": "2.0.0",
+  "description": "freeCodeCamp's Tribute Page Project - Part of the \"Responsive Web Design Certification",
+  "main": "index.js",
+  "scripts": {
+    "dist": "gulp",
+    "start": "gulp watch",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanborai/fcc-tribute-page.git"
+  },
+  "keywords": [
+    "freeCodeCamp"
+  ],
+  "author": "Esteban Borai <estebanborai@outlook.com> (https://github.com/estebanborai)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estebanborai/fcc-tribute-page/issues"
+  },
+  "homepage": "https://github.com/estebanborai/fcc-tribute-page#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
