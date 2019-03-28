@@ -1,5 +1,5 @@
 <a href="https://www.freecodecamp.org/">
-  <img align="left" width="100" height="100" alt="freeCodeCamp Logo" src="https://raw.githubusercontent.com/estebanborai/fcc-tribute-page/master/assets/freecodecamp_logo.gif" />
+  <img align="left" width="100" height="100" alt="freeCodeCamp Logo" src="https://raw.githubusercontent.com/gitpullsh/fcc-tribute-page/master/assets/freecodecamp_logo.gif" />
 </a>
 
 # fcc-tribute-page
@@ -8,14 +8,14 @@
 ### Development
 To run this project locally in your machine, you will need to run the following commands from your terminal/console application.
 ```
-git clone https://github.com/estebanborai/fcc-tribute-page.git
+git clone https://github.com/gitpullsh/fcc-tribute-page.git
 cd fcc-tribute-page
 npm i && npm start
 ```
 
 ### Technologies
 In order to follow the freeCodeCamp Curriculum I'm making use of the following set of technologies.
-<img height="90" alt="Tech Stack" src="https://raw.githubusercontent.com/estebanborai/fcc-tribute-page/master/assets/tech-stack.png" />
+<img height="90" alt="Tech Stack" src="https://raw.githubusercontent.com/gitpullsh/fcc-tribute-page/master/assets/tech-stack.png" />
 
 ### Objective
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
